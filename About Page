@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>About This Website</h1>
+        <p>Learn more about what this site is for</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Our Purpose</h2>
+        <p>This website is a starting point for learning HTML and CSS. You can expand it with more pages, images, and features.</p>
+    </main>
+
+    <footer>
+        <p>© 2025 My First Website</p>
+    </footer>
+
+</body>
+</html>
