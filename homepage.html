@@ -5,6 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Website</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styling — you can move this into style.css */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        nav {
+            background: #444;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1600x500') no-repeat center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero button {
+            background: #ff6600;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 2rem 1rem;
+            background: white;
+        }
+        .feature {
+            max-width: 300px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .feature img {
+            width: 80px;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
 
@@ -18,6 +89,32 @@
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Discover Something New</h2>
+        <p>Explore all the great things this website has to offer.</p>
+        <button onclick="window.location.href='about.html'">Learn More</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature">
+            <img src="https://via.placeholder.com/80" alt="Feature 1">
+            <h3>Fast & Simple</h3>
+            <p>Our website is designed to be fast and easy to use.</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/80" alt="Feature 2">
+            <h3>Responsive Design</h3>
+            <p>Looks great on desktops, tablets, and phones.</p>
+        </div>
+        <div class="feature">
+            <img src="https://via.placeholder.com/80" alt="Feature 3">
+            <h3>Customizable</h3>
+            <p>Tailor it to suit your style and needs.</p>
+        </div>
+    </section>
 
     <main>
         <h2>About This Website</h2>
