@@ -6,75 +6,100 @@
     <title>Home - My Website</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Basic styling — you can move this into style.css */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-        }
-        header {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 1.5rem 0;
-        }
-        nav {
-            background: #444;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 0.5rem;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .hero {
-            background: url('https://via.placeholder.com/1600x500') no-repeat center/cover;
-            color: white;
-            text-align: center;
-            padding: 5rem 1rem;
-        }
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        .hero button {
-            background: #ff6600;
-            color: white;
-            border: none;
-            padding: 1rem 2rem;
-            font-size: 1rem;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .features {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            padding: 2rem 1rem;
-            background: white;
-        }
-        .feature {
-            max-width: 300px;
-            text-align: center;
-            padding: 1rem;
-        }
-        .feature img {
-            width: 80px;
-            margin-bottom: 1rem;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Header */
+header {
+    background: #000;
+    color: #ff0000;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-bottom: 3px solid #ff0000;
+}
+
+/* Navigation */
+nav {
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0.5rem;
+}
+nav a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1600x500/000000/ff0000?text=Hero+Banner') no-repeat center/cover;
+    text-align: center;
+    padding: 5rem 1rem;
+    border-bottom: 3px solid #ff0000;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    color: #ff0000;
+    margin-bottom: 1rem;
+}
+.hero p {
+    color: #f1f1f1;
+}
+.hero button {
+    background: #ff0000;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.hero button:hover {
+    background: #cc0000;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+    background: #1a1a1a;
+}
+.feature {
+    max-width: 300px;
+    text-align: center;
+    padding: 1rem;
+}
+.feature img {
+    width: 80px;
+    margin-bottom: 1rem;
+    filter: brightness(0) saturate(100%) invert(24%) sepia(93%) saturate(7496%) hue-rotate(0deg) brightness(103%) contrast(107%);
+}
+.feature h3 {
+    color: #ff0000;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #ff0000;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: 3px solid #ff0000;
+}
     </style>
 </head>
 <body>
