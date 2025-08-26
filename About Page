@@ -21,21 +21,19 @@
 
     <main>
         <section>
-            <h2>Our Purpose</h2>
-            <p>This website started as a simple project to learn the basics of HTML and CSS. 
-            Over time, it’s growing into a space where I can practice web design, share ideas, 
-            and experiment with different layouts and features.</p>
+            <h2>How Bullying Starts.</h2>
+            <p>Bulling starts can start with name calling, talking behind their backs.</p>
         </section>
 
         <section>
-            <h2>About Me</h2>
+            <h2>How bullying affects people.</h2>
             <p>Hello! I’m the creator of this site. I enjoy working on web projects, experimenting 
             with design, and learning how to make websites more interactive and user-friendly. 
             This project is a way for me to improve my skills while sharing what I build.</p>
         </section>
 
         <section>
-            <h2>Looking Ahead</h2>
+            <h2>How you can stop people bullying.</h2>
             <ul>
                 <li>Add more pages with useful information</li>
                 <li>Experiment with JavaScript for interactivity</li>
